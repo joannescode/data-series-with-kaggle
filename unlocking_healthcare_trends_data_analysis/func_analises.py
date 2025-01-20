@@ -97,3 +97,20 @@ def grafico_entradas_por_hospital(df, admissao, numero_indicadores):
 
     plt.ylabel("")
     plt.show()
+
+
+def alternancia_entre_sexo_tipo_sanguineo_idade_e_medicacao(
+    df, genero, problema_de_saude, idade_min, idade_max
+):
+    """Relação contendo o tipo de medicação utilizada por tipo de problema de saúde, gênero e idade
+    Returns:
+        Dataframe contendo as ocorrências filtradas
+    """
+    dataframe = df.loc[
+        (df["Gender"] == genero)
+        & (df["Medical Condition"] == problema_de_saude)
+        & (df["Blood Type"].notna())
+        & (df["Age"].between(idade_min, idade_max)),
+        ["Blood Type", "Medication", "Age"],
+    ]
+    return dataframe
