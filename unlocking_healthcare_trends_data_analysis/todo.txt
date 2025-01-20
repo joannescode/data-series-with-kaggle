@@ -1,0 +1,19 @@
+Dataframes: 
+1: Relação de ocorrências médicas por gênero ✅
+2: Hospitais que mais receberam ocorrências, segmentar também por tipo de admissão ✅
+3: Relação de medicação utilizada para ocorrências médicas ✅
+4: Relação de quais hospitais mais faturaram ✅
+
+Gráficos:
+1: Relação de ocorrências médicas por gênero ✅
+2: Hospitais que mais receberam ocorrências, segmentar também por tipo de admissão ✅
+3: Relação de medicação utilizada para ocorrências médicas ✅
+4: Relação de quais hospitais mais faturaram  ✅
+
+Análises:
+1: Relação de ocorrências médicas entre gênero, idade e tipo sanguíneo ✅
+2: Relação sobre o nível de criticidade da doença com o tipo de entrada no hospital ✅
+3: Relação entre mudança de medicação utilizada quando alterado o sexo, tipo sanguíneo e idade ✅
+
+
+Dataset: https://www.kaggle.com/datasets/prasad22/healthcare-dataset
